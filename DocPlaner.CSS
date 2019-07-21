@@ -1,0 +1,404 @@
+
+body,html {
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+margin: 0px;
+}
+/*-----------header--------------*/
+.about-us { 
+color: #00b39b;
+
+}
+
+.logo-docplanner {
+width:270px;
+height: 70px ;
+}
+header {  
+display: flex;
+justify-content: space-around;
+background: white;
+height: 70px;
+padding: 10px;
+position: sticky;
+top:0 ;
+z-index:1
+}
+
+header {transition: box-shadow .25s ease 0s;}
+
+.header-menu { 
+text-decoration: none ;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 300px;
+text-align: center
+}
+
+.header-menu a { 
+text-decoration: none ;
+}
+.car-dep {
+ color: #ababab
+}
+.departements {
+position: relative;
+
+}
+.dropping {
+display: none;
+text-decoration: none ;
+border: 2px solid  #EEF2F2;
+box-shadow: 10px 10px 5px rgb(230, 227, 227);
+flex-direction: column;
+text-align: left;
+position: absolute;
+line-height: 1.8em;
+background-color: white;
+justify-content: space-between
+}
+.dropping-menu:hover .dropping {
+  display: flex;
+  
+}
+.dropping a {
+  padding: 10px;
+  color: #ababab;
+}
+
+.dropping a:hover {
+  color: #00b39b;
+ background-color: #f6f8f8;
+}
+
+
+
+/*-----------------Main-------------------------------*/
+/*------------------------first section: description -------------------*/
+.title {
+    text-align: center;
+   color: #00b39b
+}
+.title-logo {
+display: flex;
+align-items: center;
+flex-direction: column
+}
+
+
+.description {
+width:75vw;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.boxes {
+display: flex;
+justify-content: space-between;
+
+}
+.aqua-box, .blue-box {
+    height: 400px;
+    border-radius: 15px;
+    width : 500px;
+}
+.aqua-box { 
+background: #00ccb1;
+overflow: hidden;
+
+}
+.blue-box {
+
+  background:  #3d83df;
+  overflow: hidden ;
+ 
+}
+
+.title-box{
+
+   padding: 30px; 
+}
+.patient, .doctor {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 500px; 
+}
+.patient-text, .doctor-text {
+margin-bottom: 50px;
+line-height: 1.75;
+color: #747474
+}
+select { 
+border-radius: 10px ;
+height: 40px ;
+width: 150px;
+}
+.img-box {
+width:350px;
+height: 220px;
+
+}
+
+.img-patient{
+margin-left: 50px;
+}
+
+.img-doctor {
+
+margin-left: 200px;
+
+}
+.doctor-text {
+margin-bottom: 50px
+}
+.for {
+  color:  #b3f0d8;
+  font-size: 10
+
+}
+
+.box-instruction {color: white; 
+    font-size: 29px;
+    font-weight: 200;
+ }
+
+ 
+ .img-select {
+   display: flex;
+   width:700px;
+ }
+
+.local-culture {
+display: flex;
+height: 120px;
+margin-top: 60px;
+justify-content: space-between;
+}
+
+
+.svg-list:hover {
+  color:#00b3b0
+
+}
+
+.svg-list { 
+fill : #c4c4c4;
+margin-left: 20px;
+}
+.svg-list:hover{
+  fill: #00b39b
+}
+
+.local-culture-list { 
+width: 70%
+}
+.local-culture-text {
+width: 25% ;
+font-size:30px;
+color: #00b3b0;
+float: right;
+}
+
+.local-culture-list {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+/*----------------------------second section: Statistics*-----------------------------*/
+.statistics {
+background-color: #dbf7f6;
+background-image: url("../docPlanner/doc.png" );
+background-repeat: no-repeat;
+background-position: 8% 150% ;
+height: 600px;
+overflow: hidden;
+}
+
+.main-statistics {
+  display: flex;
+  justify-content: space-between;
+  width:75vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.stat-boxes {
+display: flex;
+justify-content: space-between;
+
+
+}
+.stat-text {
+margin-top: 30px;  
+  margin-bottom: 50px;
+
+}
+.turquoise {
+  color: #00b39b;
+  font-size: 35px
+
+}
+
+.stat-text-para {
+  color:#747474;
+  font-size: .8125em;
+  text-align: center;
+}
+.stat-text-platform {
+
+  color:#747474;
+  font-size: .8125em;
+
+
+}
+
+
+
+.leader, .unique-patients, .appointment, .unique-doctors {
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+
+h4 {
+  font-weight: 300;
+  font-size: 1.4em;
+  color: #00ccb1;
+  text-align: center;
+}
+.stat-box, .stat--box {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 520px;
+margin :20px;
+}
+
+.stat-box { 
+  margin-top: 60px
+ }
+
+ .stat--box {
+
+  margin-top: 20px
+
+ }
+
+/*------------Improve-your-live--------*/
+
+.impove-your-live {
+width:75vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+}
+
+.improve-text {
+margin: auto;
+width : 460px;
+height: 170px;
+text-align: center;
+font-size: .875em;
+line-height: 1.7142857143;
+margin-bottom: 40px
+
+}
+
+h2 {
+ color: #5db39b
+}
+.improve-para {
+  color: #747474
+
+}
+
+.improve-countries {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 350px;
+
+
+}
+.country {
+  border: 0.5px solid #F7F7F7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+  overflow: hidden;
+}
+
+.country:hover {
+  box-shadow: 0 20px 50px 0 rgba(0,0,0,.13);
+  cursor: pointer
+}
+.btn-opening {
+background:#3d83df;;
+width: 112px;
+height: 30px;
+border:1px solid #3d83df;;
+border-radius: 6px;
+
+}
+.btn-opening:hover {
+background: #1662c6;
+}
+.countries-a, .countries-b {
+
+  display: flex;
+  justify-content: space-between
+}
+
+.name-opening {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ height: 50px;
+}
+
+/*-------------- footer-----------*/
+
+footer {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+ border-top: 1px solid #EEF2F2 ;
+}
+
+.team-country {
+  text-decoration: none;
+color: #fff;}
+
+.name {
+  color:#7f7474
+}
+
+a {
+text-decoration: none;
+color:  #3d83df; 
+
+}
+
+.footer-text {
+  color:#7f7474;
+  font-size: 0.75em;
+  text-align: center
+
+}
